@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+  <div class="Wrapper">
+    <div class="formContainer">
+      <div id="first">
+        <div class="phone">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+        </div>
+        <div class="leftSide">
+          <h1 class="bigText">Stay updated!</h1>
+          <p class="MdText">Join 60,000+ product managers recieving monthly updates on:</p>
+  
+          <ul class="lists">
+            <li><span>Product discovery and building what matters</span></li>
+            <li><span>Measuring to ensure updates are a success</span></li>
+            <li><span>And much more</span></li>
+          </ul>
+          <section  class="formWrapper">
+            <div class="verify">
+              <p class="emial">Email address</p>
+              <p id="error" class="emial red-text d-none">Valid email required</p>
+            </div>
+            <input id="input" type="text" placeholder="email@company.com">
+            <button id="clickable" >Subscribe to monthly newsletter</button>
+          </section>
+        </div>
+        <div class="pc">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+      </div>
+      <div id="second" class="d-none">
+        <div id="top-level">
+          <img src="assets/images/icon-success.svg" alt="">
+          <h1 class="Thanks">Thanks for Subscribing !</h1>
+          <div id="message">
+  
+          </div>
+        </div>
+        <button class="dismiss">Dismiss message</button>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
